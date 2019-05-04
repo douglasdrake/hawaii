@@ -9,7 +9,7 @@ for the various stations and the effect of querying for dates with different for
 strings).
 * `app.py` is the code for the Flask app to query the database.  We have incorporated the `dateutil.parser.parse` function 
 to allow for flexible entry of dates.   Queries using dates outside the range of the datebase do not produce errors at this time.
-If a queried date falls outside of the datebase range, the queries return `null` if appropriate.
+If a queried date falls outside of the datebase range, the query returns `null` if appropriate.
 
 
 
