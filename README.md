@@ -7,7 +7,7 @@ function to produce ISO 8601 dates YYYY-MM-DD.
 * `stations.ipynb` explores the range of available dates in the database 
 for the various stations and the effect of querying for dates with different formats (`datetime` objects versus dates as
 strings).
-* `app.py` is the code for the Flask app to query the database.  We have incorporated the `dateutil.parser.parse` function 
+* `DouglasDrake-app.py` is the code for the Flask app to query the database.  We have incorporated the `dateutil.parser.parse` function 
 to allow for flexible entry of dates.   Queries using dates outside the range of the datebase do not produce errors at this time.
 If a queried date falls outside of the datebase range, the query returns `null` if appropriate.
 
